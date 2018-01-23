@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{ff7886e3-61b0-4d1f-a830-d5050cff6379}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\B2WorldFrameScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FixtureCollisionScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JointScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StaticDynamicScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\CButton.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\CLight.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\GB2ShapeCache-x.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\GLES-Render.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JointLevel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\C3SButton.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GravityLevel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GearLevel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CarLevel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\CSwitchButton.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\B2WorldFrameScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FixtureCollisionScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JointScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StaticDynamicScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\CButton.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\CLight.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GB2ShapeCache-x.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GLES-Render.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JointLevel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\C3SButton.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GravityLevel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GearLevel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CarLevel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\CSwitchButton.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

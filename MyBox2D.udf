@@ -1,0 +1,41 @@
+<UserData Version="3.10.0.0">
+  <Properties>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.MyBox2D" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="android-19" />
+        <iOS_Target Value="MyBox2D-mobile" />
+        <iOS_BundleID Value="" />
+        <Platform Value="None" />
+        <RunPlatform Value="Windows" />
+        <FrameworkVersion Value="cocos2d-x-3.10" />
+        <IsDebugKeystore Value="True" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="CocosRecentOperation">
+      <Value ctype="CocosRecentOperation">
+        <LastPublishType Value="Resource" />
+        <IsLastPublish Value="True" />
+        <LastRunType Value="Windows" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="MainMenu.csd" />
+          <FilePathData Path="JointLevel.csd" />
+          <FilePathData Path="GravityLevel.csd" />
+          <FilePathData Path="GearLevel.csd" />
+          <FilePathData Path="CarLevel.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="JointLevel.csd" />
+      </Value>
+    </Item>
+  </Properties>
+</UserData>
